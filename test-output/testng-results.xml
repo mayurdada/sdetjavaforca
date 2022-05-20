@@ -1,0 +1,181 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="10" passed="10" failed="0" skipped="0">
+  <reporter-output>
+    <line>
+      <![CDATA[setting Done]]>
+    </line>
+  </reporter-output>
+  <suite started-at="2022-05-20T13:37:11Z" name="Default suite" finished-at="2022-05-20T13:38:04Z" duration-ms="53071">
+    <groups>
+    </groups>
+    <test started-at="2022-05-20T13:37:11Z" name="Default test" finished-at="2022-05-20T13:38:04Z" duration-ms="53071">
+      <class name="pages.Logincrm">
+        <test-method is-config="true" signature="setupsuite()[pri:0, instance:pages.Logincrm@600b90df]" started-at="2022-05-20T13:37:10Z" name="setupsuite" finished-at="2022-05-20T13:37:11Z" duration-ms="1001" status="PASS">
+          <reporter-output>
+            <line>
+              <![CDATA[setting Done]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- setupsuite -->
+        <test-method is-config="true" signature="voidsetup()[pri:0, instance:pages.Logincrm@600b90df]" started-at="2022-05-20T13:37:11Z" name="voidsetup" finished-at="2022-05-20T13:37:19Z" duration-ms="7426" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- voidsetup -->
+        <test-method signature="loginApp()[pri:1, instance:pages.Logincrm@600b90df]" started-at="2022-05-20T13:37:19Z" name="loginApp" finished-at="2022-05-20T13:37:24Z" duration-ms="5125" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- loginApp -->
+        <test-method is-config="true" signature="terdown(org.testng.ITestResult)[pri:0, instance:pages.Logincrm@600b90df]" started-at="2022-05-20T13:37:24Z" name="terdown" finished-at="2022-05-20T13:37:25Z" duration-ms="1078" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=loginApp status=SUCCESS method=Logincrm.loginApp()[pri:1, instance:pages.Logincrm@600b90df] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- terdown -->
+        <test-method signature="signupapp()[pri:2, instance:pages.Logincrm@600b90df]" started-at="2022-05-20T13:37:25Z" name="signupapp" finished-at="2022-05-20T13:37:34Z" duration-ms="8588" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- signupapp -->
+        <test-method is-config="true" signature="terdown(org.testng.ITestResult)[pri:0, instance:pages.Logincrm@600b90df]" started-at="2022-05-20T13:37:34Z" name="terdown" finished-at="2022-05-20T13:37:34Z" duration-ms="117" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=signupapp status=SUCCESS method=Logincrm.signupapp()[pri:2, instance:pages.Logincrm@600b90df] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- terdown -->
+        <test-method signature="searchupapp()[pri:3, instance:pages.Logincrm@600b90df]" started-at="2022-05-20T13:37:34Z" name="searchupapp" finished-at="2022-05-20T13:37:42Z" duration-ms="7901" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- searchupapp -->
+        <test-method is-config="true" signature="terdown(org.testng.ITestResult)[pri:0, instance:pages.Logincrm@600b90df]" started-at="2022-05-20T13:37:42Z" name="terdown" finished-at="2022-05-20T13:37:42Z" duration-ms="148" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=searchupapp status=SUCCESS method=Logincrm.searchupapp()[pri:3, instance:pages.Logincrm@600b90df] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- terdown -->
+        <test-method signature="Bedapp()[pri:4, instance:pages.Logincrm@600b90df]" started-at="2022-05-20T13:37:42Z" name="Bedapp" finished-at="2022-05-20T13:37:49Z" duration-ms="7011" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Bedapp -->
+        <test-method is-config="true" signature="terdown(org.testng.ITestResult)[pri:0, instance:pages.Logincrm@600b90df]" started-at="2022-05-20T13:37:49Z" name="terdown" finished-at="2022-05-20T13:37:49Z" duration-ms="63" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=Bedapp status=SUCCESS method=Logincrm.Bedapp()[pri:4, instance:pages.Logincrm@600b90df] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- terdown -->
+        <test-method signature="Bedappcart()[pri:5, instance:pages.Logincrm@600b90df]" started-at="2022-05-20T13:37:49Z" name="Bedappcart" finished-at="2022-05-20T13:37:53Z" duration-ms="4620" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Bedappcart -->
+        <test-method is-config="true" signature="terdown(org.testng.ITestResult)[pri:0, instance:pages.Logincrm@600b90df]" started-at="2022-05-20T13:37:53Z" name="terdown" finished-at="2022-05-20T13:37:53Z" duration-ms="21" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=Bedappcart status=SUCCESS method=Logincrm.Bedappcart()[pri:5, instance:pages.Logincrm@600b90df] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- terdown -->
+        <test-method signature="assertionaa()[pri:6, instance:pages.Logincrm@600b90df]" started-at="2022-05-20T13:37:53Z" name="assertionaa" finished-at="2022-05-20T13:37:56Z" duration-ms="2679" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- assertionaa -->
+        <test-method is-config="true" signature="terdown(org.testng.ITestResult)[pri:0, instance:pages.Logincrm@600b90df]" started-at="2022-05-20T13:37:56Z" name="terdown" finished-at="2022-05-20T13:37:56Z" duration-ms="57" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=assertionaa status=SUCCESS method=Logincrm.assertionaa()[pri:6, instance:pages.Logincrm@600b90df] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- terdown -->
+        <test-method signature="tvappcart()[pri:7, instance:pages.Logincrm@600b90df]" started-at="2022-05-20T13:37:56Z" name="tvappcart" finished-at="2022-05-20T13:37:59Z" duration-ms="2883" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tvappcart -->
+        <test-method is-config="true" signature="terdown(org.testng.ITestResult)[pri:0, instance:pages.Logincrm@600b90df]" started-at="2022-05-20T13:37:59Z" name="terdown" finished-at="2022-05-20T13:37:59Z" duration-ms="21" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=tvappcart status=SUCCESS method=Logincrm.tvappcart()[pri:7, instance:pages.Logincrm@600b90df] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- terdown -->
+        <test-method signature="studyapp()[pri:8, instance:pages.Logincrm@600b90df]" started-at="2022-05-20T13:37:59Z" name="studyapp" finished-at="2022-05-20T13:38:02Z" duration-ms="3107" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- studyapp -->
+        <test-method is-config="true" signature="terdown(org.testng.ITestResult)[pri:0, instance:pages.Logincrm@600b90df]" started-at="2022-05-20T13:38:02Z" name="terdown" finished-at="2022-05-20T13:38:02Z" duration-ms="57" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=studyapp status=SUCCESS method=Logincrm.studyapp()[pri:8, instance:pages.Logincrm@600b90df] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- terdown -->
+        <test-method signature="aboutapp()[pri:9, instance:pages.Logincrm@600b90df]" started-at="2022-05-20T13:38:02Z" name="aboutapp" finished-at="2022-05-20T13:38:03Z" duration-ms="639" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- aboutapp -->
+        <test-method is-config="true" signature="terdown(org.testng.ITestResult)[pri:0, instance:pages.Logincrm@600b90df]" started-at="2022-05-20T13:38:03Z" name="terdown" finished-at="2022-05-20T13:38:03Z" duration-ms="15" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=aboutapp status=SUCCESS method=Logincrm.aboutapp()[pri:9, instance:pages.Logincrm@600b90df] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- terdown -->
+        <test-method signature="infoapp()[pri:10, instance:pages.Logincrm@600b90df]" started-at="2022-05-20T13:38:03Z" name="infoapp" finished-at="2022-05-20T13:38:03Z" duration-ms="378" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- infoapp -->
+        <test-method is-config="true" signature="terdown(org.testng.ITestResult)[pri:0, instance:pages.Logincrm@600b90df]" started-at="2022-05-20T13:38:03Z" name="terdown" finished-at="2022-05-20T13:38:03Z" duration-ms="29" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=infoapp status=SUCCESS method=Logincrm.infoapp()[pri:10, instance:pages.Logincrm@600b90df] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- terdown -->
+        <test-method is-config="true" signature="teardown()[pri:0, instance:pages.Logincrm@600b90df]" started-at="2022-05-20T13:38:03Z" name="teardown" finished-at="2022-05-20T13:38:04Z" duration-ms="1043" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- teardown -->
+      </class> <!-- pages.Logincrm -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>

@@ -1,0 +1,15 @@
+com\ca\Browserfact.class
+pages\Moreinfo.class
+pages\Searchpage.class
+pages\Asserttest.class
+pages\Baseclass.class
+pages\Livingroom.class
+pages\Logincrm.class
+pages\Bookingpage.class
+pages\Bedroom.class
+pages\Signup.class
+pages\Studypage.class
+pages\Loginpage.class
+pages\Configdataprovider.class
+pages\Aboutpage.class
+pages\Helperclass.class
